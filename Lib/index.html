@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Due Date Reminder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-book"></i>
+                    <span>LibraryReminder</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How it Works</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-buttons">
+                    <button class="btn-secondary">Sign In</button>
+                    <button class="btn-primary">Get Started</button>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Never Miss a Library Due Date Again
+                </h1>
+                <p class="hero-subtitle">
+                    Get smart reminders for your library books, manage your reading list, and avoid late fees with our intelligent due date tracking system.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-primary btn-large">
+                        <i class="fas fa-rocket"></i>
+                        Start Free Trial
+                    </button>
+                    <button class="btn-outline btn-large">
+                        <i class="fas fa-play"></i>
+                        Watch Demo
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">10K+</span>
+                        <span class="stat-label">Active Users</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">50K+</span>
+                        <span class="stat-label">Books Tracked</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">99%</span>
+                        <span class="stat-label">Success Rate</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="dashboard-mockup">
+                    <div class="mockup-header">
+                        <div class="mockup-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <span class="mockup-title">Library Dashboard</span>
+                    </div>
+                    <div class="mockup-content">
+                        <div class="book-card">
+                            <div class="book-cover">
+                                <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=60&h=80&fit=crop&crop=center" alt="The Great Gatsby" loading="lazy">
+                            </div>
+                            <div class="book-info">
+                                <h4>The Great Gatsby</h4>
+                                <p>Due: March 15, 2024</p>
+                                <div class="due-indicator urgent">2 days left</div>
+                            </div>
+                        </div>
+                        <div class="book-card">
+                            <div class="book-cover">
+                                <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=60&h=80&fit=crop&crop=center" alt="To Kill a Mockingbird" loading="lazy">
+                            </div>
+                            <div class="book-info">
+                                <h4>To Kill a Mockingbird</h4>
+                                <p>Due: March 20, 2024</p>
+                                <div class="due-indicator warning">7 days left</div>
+                            </div>
+                        </div>
+                        <div class="book-card">
+                            <div class="book-cover">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=80&fit=crop&crop=center" alt="1984" loading="lazy">
+                            </div>
+                            <div class="book-info">
+                                <h4>1984</h4>
+                                <p>Due: March 25, 2024</p>
+                                <div class="due-indicator safe">12 days left</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose LibraryReminder?</h2>
+                <p>Powerful features designed to make library management effortless</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop&crop=center" alt="Smart Reminders" loading="lazy">
+                    </div>
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3>Smart Reminders</h3>
+                    <p>Get personalized notifications before your books are due. Customize reminder frequency and delivery methods.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=300&fit=crop&crop=center" alt="Mobile App" loading="lazy">
+                    </div>
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile App</h3>
+                    <p>Access your library dashboard anywhere with our intuitive mobile application for iOS and Android.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&crop=center" alt="Reading Analytics" loading="lazy">
+                    </div>
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Reading Analytics</h3>
+                    <p>Track your reading habits, discover patterns, and get insights into your library usage.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&crop=center" alt="Auto Sync" loading="lazy">
+                    </div>
+                    <div class="feature-icon">
+                        <i class="fas fa-sync"></i>
+                    </div>
+                    <h3>Auto Sync</h3>
+                    <p>Automatically sync with your library's system to keep your book list always up to date.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop&crop=center" alt="Privacy First" loading="lazy">
+                    </div>
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Privacy First</h3>
+                    <p>Your data is encrypted and secure. We never share your personal information with third parties.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop&crop=center" alt="Family Sharing" loading="lazy">
+                    </div>
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Family Sharing</h3>
+                    <p>Manage multiple library cards for your family members from a single dashboard.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It Works</h2>
+                <p>Get started in just three simple steps</p>
+            </div>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-image">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=300&h=200&fit=crop&crop=center" alt="Connect Your Library" loading="lazy">
+                    </div>
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Connect Your Library</h3>
+                        <p>Link your library card or account to automatically import your borrowed books and due dates.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=300&h=200&fit=crop&crop=center" alt="Set Your Preferences" loading="lazy">
+                    </div>
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Set Your Preferences</h3>
+                        <p>Customize your reminder settings, notification frequency, and preferred contact methods.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-image">
+                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=300&h=200&fit=crop&crop=center" alt="Stay Organized" loading="lazy">
+                    </div>
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Stay Organized</h3>
+                        <p>Receive timely reminders and manage your reading list with our intuitive dashboard.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Simple, Transparent Pricing</h2>
+                <p>Choose the plan that works best for you</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Free</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">0</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Up to 5 books</li>
+                        <li><i class="fas fa-check"></i> Basic reminders</li>
+                        <li><i class="fas fa-check"></i> Mobile app access</li>
+                        <li><i class="fas fa-check"></i> Email support</li>
+                    </ul>
+                    <button class="btn-outline btn-medium">Get Started</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">9</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Unlimited books</li>
+                        <li><i class="fas fa-check"></i> Smart reminders</li>
+                        <li><i class="fas fa-check"></i> Reading analytics</li>
+                        <li><i class="fas fa-check"></i> Family sharing</li>
+                        <li><i class="fas fa-check"></i> Priority support</li>
+                    </ul>
+                    <button class="btn-primary btn-medium">Start Free Trial</button>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Family</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">19</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Everything in Pro</li>
+                        <li><i class="fas fa-check"></i> Up to 6 family members</li>
+                        <li><i class="fas fa-check"></i> Advanced analytics</li>
+                        <li><i class="fas fa-check"></i> Custom integrations</li>
+                        <li><i class="fas fa-check"></i> 24/7 support</li>
+                    </ul>
+                    <button class="btn-outline btn-medium">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Management Dashboard Section -->
+    <section id="dashboard" class="dashboard">
+<div class="container">
+    <div class="section-header">
+    <h2>📚 Manage Your Library</h2>
+    <p>Add, track, and delete your books easily</p>
+    </div>
+
+    <!-- Add Book Form -->
+    <form id="bookForm" class="add-book-form">
+    <input type="text" id="bookTitle" placeholder="Book Title" required>
+    <input type="date" id="bookDueDate" required>
+    <input type="email" id="userEmail" placeholder="Your Email" required>
+    <button type="submit" class="btn-primary">Add Book</button>
+    </form>
+
+    <!-- Books List -->
+    <div id="booksList" class="books-grid"></div>
+</div>
+</section>
+
+            <!-- Book Management Controls -->
+            <div class="book-controls">
+                <div class="search-filter">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Search books..." id="bookSearch">
+                    </div>
+                    <select id="statusFilter" class="filter-select">
+                        <option value="all">All Books</option>
+                        <option value="current">Currently Reading</option>
+                        <option value="due-soon">Due Soon</option>
+                        <option value="overdue">Overdue</option>
+                        <option value="returned">Returned</option>
+                    </select>
+                </div>
+                <button class="btn-primary" onclick="openAddBookModal()">
+                    <i class="fas fa-plus"></i>
+                    Add New Book
+                </button>
+            </div>
+
+            <!-- Books Grid -->
+            <div class="books-grid" id="booksGrid">
+                <!-- Books will be dynamically added here -->
+            </div>
+
+            <!-- Empty State -->
+            <div class="empty-state" id="emptyState" style="display: none;">
+                <div class="empty-icon">
+                    <i class="fas fa-book-open"></i>
+                </div>
+                <h3>No books yet</h3>
+                <p>Start by adding your first book to track its due date</p>
+                <button class="btn-primary" onclick="openAddBookModal()">
+                    <i class="fas fa-plus"></i>
+                    Add Your First Book
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Never Miss a Due Date?</h2>
+                <p>Join thousands of readers who stay organized with LibraryReminder</p>
+                <div class="cta-buttons">
+                    <button class="btn-primary btn-large">
+                        <i class="fas fa-rocket"></i>
+                        Start Free Trial
+                    </button>
+                    <button class="btn-outline btn-large">
+                        <i class="fas fa-phone"></i>
+                        Schedule Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-book"></i>
+                        <span>LibraryReminder</span>
+                    </div>
+                    <p>Never miss a library due date again. Smart reminders for smart readers.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Mobile App</a></li>
+                        <li><a href="#">Integrations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Status</a></li>
+                        <li><a href="#">API Docs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 LibraryReminder. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+<style>
+/* Hides the fake hero dashboard and stats on the homepage */
+.hero-stats,
+.hero-image .dashboard-mockup {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
+}
+</style>
+<style>
+/* Hide unwanted sections */
+#pricing,
+.cta,
+.footer {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
+}
+</style>
+
+</body>
+</html>
